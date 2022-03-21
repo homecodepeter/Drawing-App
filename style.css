@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #010101;
+}
+.container{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.title h1{
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #5668f5;
+}
+.title{
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.underline{
+  width: 80px;
+  height: 5px;
+  background-color: aqua;
+  position: absolute;
+  top: 4em;
+}
+.main{
+  position: absolute;
+}
+canvas{
+  background: #fff;
+  margin-top: 1em;
+  width: 560px;
+  height: 360px;
+  border-radius: 10px;
+}
+button{
+  outline:none;
+  border:none;
+  padding: 10px 0;
+  font-size: 1.6em;
+  margin-top: 1em;
+  border-radius: 10px;
+  cursor: pointer;
+}
