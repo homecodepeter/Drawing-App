@@ -5,7 +5,6 @@ let y = 0;
 const myPics = document.getElementById('myPics');
 const clear = document.getElementById('clear');
 const main = document.getElementById('main');
-const rap = document.getElementById('rap');
 const context = myPics.getContext('2d');
 
 clear.addEventListener('click', () => {
